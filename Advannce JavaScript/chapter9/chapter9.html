@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chapter9</title>
+
+    <h1>chapter 9</h1>
+  </head>
+  <body>
+    <h1>The Document Object Model</h1>
+
+    <script src="chapter9.js"></script>
+
+    <script>
+      const output = document.querySelector(".output");
+      output.textContent = "Hello World";
+      output.classList.add("red");
+      output.id = "tester";
+      output.style.backgroundColor = "red";
+      console.log(document.URL);
+      output.textContent = document.URL;
+
+      
+    </script>
+  </body>
+</html>
